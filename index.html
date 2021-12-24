@@ -1,68 +1,405 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/wecan.css">
-    <title>WeHelp Bootcamp申請簡章</title>
-    <link rel="icon" href="./img/logo-256.png">
+    <title>Maikon – Solution To Your Problems</title>
+    <link rel="stylesheet" href="./css/maikon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous">
+    <style>
 
+    </style>
 </head>
 
 <body>
-    <header>
-        <h1>WeHelp Bootcamp申請簡章</h1>
+    <header class="main-header">
+        <nav class="header_nav">
+            <div class="container " id="navber">
+                <div class="nav_logo">
+                    <a href="./index.html">
+                        <h1 class="sr-only">Maikon</h1>
+                        <img src="./img/logo.webp" alt="">
+                    </a>
+                </div>
+                <div class="nav_options">
+                    <a href="javascritp:;">Home</a>
+                    <a href="javascritp:;">About</a>
+                    <a href="javascritp:;">Services</a>
+                    <a href="javascritp:;">Team</a>
+                    <a href="javascritp:;">Case studio</a>
+                    <a href="javascritp:;">Contacts</a>
+                </div>
+                <div class="nav_subscribe btn_to_mianColor">
+                    <a href="javascritp:;">SUBSCRIBE</a>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main class="myMain">
-        <section>
-            <h2>個人簡介</h2>
-            <p>我是黃宗民，來自新北市，我分別在2016年與2018年畢業於國立台中科技大學資訊工程系與資工所，大學時期曾使用shiva3D、unity撰寫遊戲與使用C#透過Emgu
-                CV及OpenCV撰寫影像處理相關應用，研究所時期曾使用深度學習結合影像處理進行物件辨識，畢業後因緣際會下進入了財團法人資訊工業策進會，開發兒童程式教育課程，帶領8-15歲學員學習scratch程式設計，隨後跟著公司spin-off之後來到了資展國際，目前在的工作內容為班級導師，協助成人程式教育的招募、課程安排、政府計畫申請、學員輔導。
-            </p>
-        </section>
-        <section>
-            <h2>為什麼想成為前端、後端、或全端工程師？</h2>
-            <p>過去求學階段並沒有接觸過網頁相關的程式技術，進入資展國際之後開始自主學習前端方面的技術，在職期間有時也會需要協助學員的學習與問題解決，儘管問題都能順利解決與排除，但我沒有實際到過業界從事網頁工作過，有時讓我懷疑自己的想法與觀念是否正確?是否有更多實務面與理論面的差別是作為教職需要去理解的?因此想要實際踏入業界去領悟可能遇到的酸甜苦辣，也想了解專案導向的教學模式。
-            </p>
-        </section>
-        <section>
-            <h2>為了成為軟體工程師，曾經做過什麼努力？</h2>
-            <p>雖然公司沒有要求，但希望能幫助學習上遇到困難的學員，自主參與了公司的課程學習基礎的前端技能，目前也在自行報名的前端切版實務相關線上直播課程學習中(11、12月)，閒暇之餘也會上leetcode解題並且紀錄所遇上的困難以及解決的過程，也會自主購書學習觀念與練習分享給學員，整理出本次訓練相關的書籍(HTML、CSS、JavaScript、Python)如下圖(可放大)：
-            </p>
-            <div class="img-magnifier-container">
-                <img id="myimage" src="./img/484118.jpg" width="600" height="400">
+    <main>
+        <section class="section_introduce">
+            <div class="container">
+                <div class="desc">
+                    <div class="desc_title">
+                        <h2>Our creativity is your success</h2>
+                    </div>
+                    <p>We break all boundaries if they happen on our way of project’s development!</p>
+                    <div class="desc_button">
+                        <a href="javascritp:;" class="desc_button_a btn_mianColor">LEARN MORE</a>
+                        <a href="javascritp:;"><img src="./img/play-button.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="desc_img">
+                    <img src="./img/home-image-1.svg" alt="">
+                </div>
             </div>
         </section>
-        <section>
-            <h2>如果參與這個計畫，會怎麼安排學習時間？</h2>
-            <p>第一階段訓練預計在職投入本訓練，目前上班時間處理完行政事務之後，有許多自主安排的時間，白天能排出至少約4小時，下班後也會投入2~4小時及假日8小時，一周約為46~56小時，可以用來精進自己技術。</p>
-            <p>預期會在明年二月離職，剛好銜接第二階段，全職投入第二與第三階段的訓練，有句話說得好：「一個人可以走得快，一群人可以走得遠。」所以希望能參加實體活動與其他學員一起合作互動與學習，第二與第三階段訓練仍以上班的作息和時數為標準，早八晚五，至少每日8小時，其餘的晚上時段保持刷題習慣與依照訓練情況安排。
-            </p>
+
+        <section class="section_introduce">
+            <div class="container">
+                <div class="desc">
+                    <div class="desc_title">
+                        <h2>Creative challenges are our passion</h2>
+                    </div>
+                    <p>Our team of designers and developers work closely together to build a creative and positive
+                        working
+                        environment. Functionality is as important to us as aesthetics.</p>
+                    <div class="desc_button">
+                        <a href="javascritp:;" class="desc_button_a btn_mianColor">ABOUT US</a>
+                        <a href="javascritp:;" class="desc_change_green btn_to_mianColor">CONTACT US</a>
+                    </div>
+                </div>
+                <div class="desc_img">
+                    <img src="./img/home-image-2.webp" alt="">
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>如果參與這個計畫，預期會碰到什麼困難？你打算怎麼解決它？</h2>
-            <p>雖然自身有一定的程式基礎，但在面對全新的領域時一定會遇到開發上的困難等狀況，會多花時間去官方文件及各大論壇、社群進行研究，與同儕討論使彼此進步。</p>
+
+        <section class="section_service">
+            <div class="container">
+                <div class="header">
+                    <div class="service_title">
+                        <h2>We provide a wide range of creative services</h2>
+                    </div>
+                    <img src="./img/bg-shadow-3.svg" alt="">
+                </div>
+                <div class="service_type">
+                    <div class="item" id="item_row1">
+                        <img src="./img/icon-1.svg" alt="">
+                        <h3>Web Design & Brending</h3>
+                        <p>A great brand combines design and conveys company’s value messaging to evoke emotion and
+                            drivestrategy.
+                        </p>
+                        <a href="javascritp:;">READ MORE</a>
+                    </div>
+                    <div class="item">
+                        <img src="./img/icon-2.svg" alt="">
+                        <h3>Graphic Design</h3>
+                        <p>Rich experience plus unlimited imagination create our successful service discovered by
+                            clients.
+                        </p>
+                        <a href="javascritp:;">READ MORE</a>
+                    </div>
+                    <div class="item">
+                        <img src="./img/icon-3.svg" alt="">
+                        <h3>Video Production</h3>
+                        <p>Creating and handling professional video is our strong point. It plays major role in your
+                            digital business strategy.</p>
+                        <a href="javascritp:;">READ MORE</a>
+                    </div>
+                    <div class="item" id="item_row2">
+                        <img src="./img/icon-4.svg" alt="">
+                        <h3>SEO</h3>
+                        <p>We provide everything your site needs to perform at it’s highest capabilities on the major
+                            searchengines.
+                        </p>
+                        <a href="javascritp:;">READ MORE</a>
+                    </div>
+                    <div class="item">
+                        <img src="./img/icon-5.svg" alt="">
+                        <h3>Digital Marketing</h3>
+                        <p>We do collateral design, interactive design, hoarding, signage, presentation centres, and
+                            more.
+                        </p>
+                        <a href="javascritp:;">READ MORE</a>
+                    </div>
+                    <div class="item">
+                        <img src="./img/icon-6.svg" alt="">
+                        <h3>Infographics</h3>
+                        <p>Turn your data into captivating artwork that will keep your audience engaged. Our team can
+                            help you with it.
+                        </p>
+                        <a href="javascritp:;">READ MORE</a>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>是否有想要加入的軟體公司？為什麼想加入該公司？</h2>
-            <p>目前想加入的公司是自力耕生股份有限公司(汪喵星球)，因為作為台灣寵物濕食的龍頭，為了因應全台眾多客戶所帶來的高流量，網站使用到的技術應該會有很多值得學習的地方，而且可以帶貓上班與伙食費半價，不過他們後端使用的是PHP，需要在計劃額外的時間自行學習才行，已購入PHP相關書籍與查找相關學習資源，也期許自己能持續精進自己的技術，有一天能挑戰FAANG等級的公司職務，未來回歸教職時能給予同學更多的實務經驗。
-            </p>
+
+        <section class="section_introduce">
+            <div class="container">
+                <div class="desc">
+                    <div class="desc_title">
+                        <h2>If you have any questions, please contact us</h2>
+                    </div>
+                    <p>Our professional support team try to do their best to provide you with high-quality consultations
+                        concerning any question about our services.
+                    </p>
+                    <div class="desc_button">
+                        <a href="javascritp:;" class="desc_button_a btn_mianColor">CONTACT US</a>
+                        <a href="javascritp:;" class="desc_change_green btn_to_mianColor">SUBCRIBE</a>
+                    </div>
+                </div>
+                <div class="desc_img">
+                    <img src="./img/home-image-3.svg" alt="">
+                    <!-- <img src="./img/bg-shadow-5.svg" class="bg_shadow bg_shadow-5" alt=""> -->
+                    <!-- <img src="./img/bg-shadow-6.svg" class="bg_shadow bg_shadow-6" alt=""> -->
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>想要對我們說的事情？</h2>
-            <p>綜合上面所敘，我對於程式的基礎以及熱情是有一定的程度的，學習新領域技術的進度應該會優於一般的轉職者，希望能加入這次的WeHelp 軟體工程師扶持計畫。</p>
-            <p>對於計畫主持人彭彭老師只有滿滿的敬佩，工作上有需求時也曾看過許多彭彭老師的影片教學，實在受益良多。</p>
+
+        <section class="section_recommend">
+            <header class="recommend_header">
+                <div class="recommend_title">
+                    <h2>Why choose our studio for your projects?</h2>
+                </div>
+                <p>We are a command of professional and enthusiastic people, who like what they do and are always in the
+                    process of growing and improving their skills.</p>
+                <a href="javascritp:;" class="btn_to_mianColor">ORDER SERVICE</a>
+            </header>
+            <div class="recomend_reason">
+                <div class="item">
+                    <span>1880+</span>
+                    <p>Completed projects to the end by our specialists.</p>
+                </div>
+                <div class="item">
+                    <span>56</span>
+                    <p>A large team of the best specialists.</p>
+                </div>
+                <div class="item">
+                    <span>2000+</span>
+                    <p>Customers who were satisfied with our work.</p>
+                </div>
+                <div class="item">
+                    <span>100%</span>
+                    <p>Our values are good organization and result orientation.</p>
+                </div>
+            </div>
+            <span></span>
+
+        </section>
+
+        <section class="section_sop">
+            <div class="container">
+                <header class="sop_header">
+                    <div class="sop_title">
+                        <h2>Steps of our work</h2>
+                    </div>
+                </header>
+                <div class="sop_step">
+                    <div class="step_img">
+                        <img src="./img/home-image-4.svg" alt="">
+                    </div>
+                    <div class="step_desc">
+                        <div class="icon">
+                            <img src="./img/number-01.svg" alt="">
+                            <img src="./img/arrow-1.svg" alt="" class="route">
+                        </div>
+                        <div class="item">
+                            <h3>Meeting With The Customer</h3>
+                            <p>The first meeting is very import to form contact and discuss the main ideas of the
+                                project.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sop_step">
+                    <div class="step_img">
+                        <img src="./img/home-image-5.svg" alt="">
+                    </div>
+                    <div class="step_desc">
+                        <div class="icon">
+                            <img src="./img/number-02.svg" alt="">
+                            <img src="./img/arrow-2.svg" alt="" class="route">
+                        </div>
+                        <div class="item">
+                            <h3>We Consider And Analyze The Work Plan</h3>
+                            <p>When we understand the main eideas, we proceed to discussing the work plan and analyzing
+                                it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sop_step">
+                    <div class="step_img">
+                        <img src="./img/home-image-6.svg" alt="">
+                    </div>
+                    <div class="step_desc">
+                        <div class="icon">
+                            <img src="./img/number-03.svg" alt="">
+                            <img src="./img/arrow-3.svg" alt="" class="route">
+                        </div>
+                        <div class="item">
+                            <h3>Work Hard On The Project</h3>
+                            <p>Our professional team start to handle with your project and embody the conception of the
+                                project.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sop_step">
+                    <div class="step_img">
+                        <img src="./img/home-image-7.svg" alt="">
+                    </div>
+                    <div class="step_desc">
+                        <div class="icon">
+                            <img src="./img/number-04.svg" alt="">
+                            <img src="./img/arrow-4.svg" alt="" class="route">
+                        </div>
+                        <div class="item">
+                            <h3>Once Again We Analyze And Check Everything</h3>
+                            <p>We meet, analyze and check the done work and make needed corrections.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sop_step">
+                    <div class="step_img">
+                        <img src="./img/home-image-8.svg" alt="">
+                    </div>
+                    <div class="step_desc">
+                        <div class="icon">
+                            <img src="./img/number-05.svg" alt="">
+                        </div>
+                        <div class="item">
+                            <h3>We Finish The Work And Give It To The Customer</h3>
+                            <p>The project is ready and we give it to the customer. Also we ask for the feedback from
+                                the customer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_projects">
+            <div class="container">
+                <header class="projects_header">
+                    <div class="project_title">
+                        <h2>Our team's work with Projects</h2>
+                    </div>
+                    <a href="#" class="btn_mianColor">ALL PROJECTS</a>
+                </header>
+                <div class="projects_item">
+                    <figure class="item">
+                        <img src="./img/project-1.webp" alt="">
+                        <figcaption>Minimal Creative "Impuls"<a href="javascritp:;">VIEW SITE</a></figcaption>
+                    </figure>
+                    <figure class="item">
+                        <img src="./img/project-2.webp" alt="">
+                        <figcaption>Travel Company "Tour Up"<a href="javascritp:;">VIEW SITE</a></figcaption>
+                    </figure>
+                    <figure class="item">
+                        <img src="./img/project-3.webp" alt="">
+                        <figcaption>Restaurant Pizza "Little Italy"<a href="javascritp:;">VIEW SITE</a></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_signUp">
+            <div class="container">
+                <div class="signUp_img">
+                    <img src="./img/home-image-9.svg" alt="">
+                </div>
+                <div class="signUp_form">
+                    <form class="form_item">
+                        <div class="form_title">
+                            <h2>Sign up for our consultation</h2>
+                        </div>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea cols="10" rows="5" placeholder="Message"></textarea>
+                    </form>
+                    <a href="javascritp:;" class="btn_mianColor">SEND</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_subscribe">
+            <div class="container">
+                <div class="subcribe_title">
+                    <h2>Subscribe to our news and learn more</h2>
+                </div>
+                <form class="subscribe_form">
+                    <input type="email" placeholder="Your email">
+                    <a href="javascritp:;" class="btn_mianColor">SUBSCRIBE</a>
+                </form>
+            </div>
         </section>
 
     </main>
 
-    <footer>
-        <p>聯繫我：<a href="https://www.facebook.com/profile.php?id=100000315213725" target="_blank">黃宗民</a></p>
-        <span>skylamp0220@gmail.com</span>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer_info">
+                <div class="info_item">
+                    <img src="./img/logo.webp" alt="">
+                    <a href="javascritp:;"><span>Phone:</span>+ 1 (045) - 224 - 12 - 67</a>
+                    <a href="javascritp:;"><span>Mail:</span>info@demolink.org</a>
+                </div>
+                <div class="info_item">
+                    <h3>Services</h3>
+                    <a href="javascritp:;">Web design & brending</a>
+                    <a href="javascritp:;">Web development</a>
+                    <a href="javascritp:;">Full Optimization</a>
+                    <a href="javascritp:;">Research & Strategy</a>
+                    <a href="javascritp:;">Management & Marketing</a>
+                    <a href="javascritp:;">Free support</a>
+                </div>
+                <div class="info_item">
+                    <h3>About Company</h3>
+                    <a href="javascritp:;">About us</a>
+                    <a href="javascritp:;">Team</a>
+                    <a href="javascritp:;">Case studio</a>
+                    <a href="javascritp:;">Contacts</a>
+                </div>
+                <div class="info_item">
+                    <h3>Our Social Networks</h3>
+                    <p>Join us in the social networks and keep up on the latest news.</p>
+                    <div class="item_icon">
+                        <span><a href="javascritp:;" class="fab fa-youtube"></a></span>
+                        <span><a href="javascritp:;" class="fab fa-facebook-f"></a></span>
+                        <span><a href="javascritp:;" class="fab fa-instagram"></a></span>
+                        <span><a href="javascritp:;" class="fab fa-twitter"></a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="foot_copyright">
+                <div class="copyright_text">
+                    <p>Copyright © 2018 Wordpress Maikon. All Rights Reserved. | Theme design by
+                        <a href="#"> <span>Zemez</span></a>
+                    </p>
+                </div>
+                <div class="copyright_link">
+                    <a href="javascritp:;">Privacy & Policy</a>
+                    <a href="javascritp:;">FAQ</a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#">
+            <div class="anchor"></div>
+        </a>
     </footer>
 
-    <script src="./js/wecan.js"></script>
+    <script src="./js/maikon.js"></script>
+
 </body>
 
 </html>
